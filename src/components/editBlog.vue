@@ -44,6 +44,7 @@ import axios  from 'axios'
                 axios.put('https://wd0594128064puzewe.wilddogio.com/posts/'+this.id+'.json',this.blog)
                 .then(()=>{
                     this.$router.push('/')
+                    console.log(1)
                 })
             }
         },
